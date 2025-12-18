@@ -7,13 +7,13 @@ import { SITE_TITLE } from '../consts';
 	<nav>
 		<h2><a href="/">{SITE_TITLE}</a></h2>
 		<div class="internal-links">
-			<HeaderLink href="/">Home</HeaderLink>
-			<HeaderLink href="/blog">Blog</HeaderLink>
-			<HeaderLink href="/about">About</HeaderLink>
+			<HeaderLink href="/">الرئيسية</HeaderLink>
+			<HeaderLink href="/blog">المدونة</HeaderLink>
+			<HeaderLink href="/about">من نحن</HeaderLink>
 		</div>
 		<div class="social-links">
-			<a href="https://m.webtoo.ls/@astro" target="_blank">
-				<span class="sr-only">Follow Astro on Mastodon</span>
+			<a href="https://seoorgeo.com/" target="_blank" rel="noopener noreferrer">
+				<span class="sr-only">مركز السيو العربي</span>
 				<svg viewBox="0 0 16 16" aria-hidden="true" width="32" height="32"
 					><path
 						fill="currentColor"
@@ -21,8 +21,8 @@ import { SITE_TITLE } from '../consts';
 					></path></svg
 				>
 			</a>
-			<a href="https://twitter.com/astrodotbuild" target="_blank">
-				<span class="sr-only">Follow Astro on Twitter</span>
+			<a href="https://mohamedtaman.ru/" target="_blank" rel="noopener noreferrer">
+				<span class="sr-only">خبير السيو</span>
 				<svg viewBox="0 0 16 16" aria-hidden="true" width="32" height="32"
 					><path
 						fill="currentColor"
@@ -30,8 +30,8 @@ import { SITE_TITLE } from '../consts';
 					></path></svg
 				>
 			</a>
-			<a href="https://github.com/withastro/astro" target="_blank">
-				<span class="sr-only">Go to Astro's GitHub repo</span>
+			<a href="https://github.com/withastro/astro" target="_blank" rel="noopener noreferrer">
+				<span class="sr-only">اذهب إلى مستودع أسترو على جيتهب</span>
 				<svg viewBox="0 0 16 16" aria-hidden="true" width="32" height="32"
 					><path
 						fill="currentColor"
@@ -62,6 +62,7 @@ import { SITE_TITLE } from '../consts';
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
+		direction: rtl;
 	}
 	nav a {
 		padding: 1em 0.5em;
