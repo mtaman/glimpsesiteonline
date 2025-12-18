@@ -30,8 +30,23 @@
 	font-style: normal;
 	font-display: swap;
 }
+/* Arabic font support */
+@font-face {
+	font-family: "Noto Sans Arabic";
+	src: url("/fonts/noto-sans-arabic-regular.woff2") format("woff2");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Noto Sans Arabic";
+	src: url("/fonts/noto-sans-arabic-bold.woff2") format("woff2");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
 body {
-	font-family: "Atkinson", sans-serif;
+	font-family: "Atkinson", "Noto Sans Arabic", sans-serif;
 	margin: 0;
 	padding: 0;
 	text-align: left;
@@ -42,6 +57,7 @@ body {
 	color: rgb(var(--gray-dark));
 	font-size: 20px;
 	line-height: 1.7;
+	direction: rtl; /* Right-to-left layout for Arabic */
 }
 main {
 	width: 720px;
