@@ -1,214 +1,142 @@
 ---
-title: "Markdown Style Guide"
-description: "Here is a sample of some basic Markdown syntax that can be used when writing Markdown content in Astro."
-pubDate: "Jun 19 2024"
+title: "دليل إنشاء محتوى احترافي لتحسين محركات البحث"
+description: "كيفية إنشاء محتوى احترافي متوافق مع معايير تحسين محركات البحث"
+pubDate: "Dec 18 2025"
 heroImage: "/blog-placeholder-1.jpg"
 ---
 
-Here is a sample of some basic Markdown syntax that can be used when writing Markdown content in Astro.
+## مقدمة إلى إنشاء المحتوى الاحترافي
 
-## Headings
+يعد إنشاء محتوى احترافي متوافق مع معايير تحسين محركات البحث (SEO) من العوامل الأساسية لنجاح أي موقع إلكتروني. في هذا الدليل، سنستعرض أفضل الممارسات لإنشاء محتوى يرضي محركات البحث ويقدم قيمة حقيقية للقراء. [تعرف على أساسيات السيو](https://glimpsesite.online/blog/seo-mabadi) لفهم أهمية المحتوى في تحسين محركات البحث.
 
-The following HTML `<h1>`—`<h6>` elements represent six levels of section headings. `<h1>` is the highest section level while `<h6>` is the lowest.
+## العناوين وتنظيم المحتوى
 
-# H1
+### 1. هيكل العناوين
 
-## H2
+تستخدم عناصر `<h1>` إلى `<h6>` لتمثيل ستة مستويات من العناوين. `<h1>` هو أعلى مستوى قسم بينما `<h6>` هو أدنى مستوى. يجب أن يحتوي كل مقال على عنوان `<h1>` واحد فقط، يليه عناوين فرعية `<h2>`، `<h3>`، وهكذا.
 
-### H3
+### 2. عنوان المقال (H1)
 
-#### H4
+يجب أن يحتوي عنوان المقال على الكلمة المفتاحية الرئيسية التي تتعلق بموضوع المقال. [تعرف على تحسين المحتوى لمحركات البحث](https://glimpsesite.online/blog/tahsin-almumtawa) لمعرفة كيفية تنظيم المحتوى بشكل فعال.
 
-##### H5
+### 3. العناوين الفرعية (H2، H3)
 
-###### H6
+تساعد العناوين الفرعية في تنظيم المحتوى وتسهيل قراءته. كما تساعد محركات البحث في فهم هيكل المقال ومحتواه.
 
-## Paragraph
+## فقرات المحتوى
 
-Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur? Quianimin porecus evelectur, cum que nis nust voloribus ratem aut omnimi, sitatur? Quiatem. Nam, omnis sum am facea corem alique molestrunt et eos evelece arcillit ut aut eos eos nus, sin conecerem erum fuga. Ri oditatquam, ad quibus unda veliamenimin cusam et facea ipsamus es exerum sitate dolores editium rerore eost, temped molorro ratiae volorro te reribus dolorer sperchicium faceata tiustia prat.
+### 1. تنظيم الفقرات
 
-Itatur? Quiatae cullecum rem ent aut odis in re eossequodi nonsequ idebis ne sapicia is sinveli squiatum, core et que aut hariosam ex eat.
+يجب أن تكون فقرات المحتوى قصيرة وسهلة القراءة، ويفضل أن لا تتجاوز 3-4 أسطر. هذا يسهل على القراء متابعة المحتوى ويحسن تجربة المستخدم.
 
-## Images
+### 2. استخدام النقاط
 
-### Syntax
+استخدم القوائم بنقط أو أرقام عند عرض عناصر متعددة. هذا يساعد في تنظيم المعلومات ويجعلها أسهل في الفهم.
 
-```markdown
-![Alt text](./full/or/relative/path/of/image)
-```
+## الصور وتحسين محركات البحث
 
-### Output
+### 1. نصوص الصور البديلة
 
-![blog placeholder](/blog-placeholder-about.jpg)
+يجب أن تحتوي كل صورة على نص بديل (Alt Text) يصف محتوى الصورة. هذا يساعد محركات البحث في فهم محتوى الصورة وتحسين ترتيبها في نتائج البحث.
 
-## Blockquotes
+### 2. تحسين حجم الصور
 
-The blockquote element represents content that is quoted from another source, optionally with a citation which must be within a `footer` or `cite` element, and optionally with in-line changes such as annotations and abbreviations.
+استخدم صورًا محسّنة من حيث الحجم لتحسين سرعة تحميل الصفحة، وهو عامل مهم في تحسين محركات البحث.
 
-### Blockquote without attribution
+## الاقتباسات وال.Boxes
 
-#### Syntax
+### 1. اقتباسات المحتوى
 
-```markdown
-> Tiam, ad mint andaepu dandae nostion secatur sequo quae.  
-> **Note** that you can use _Markdown syntax_ within a blockquote.
-```
+تمثل عناصر الاقتباس محتوى مقتبس من مصدر آخر، ويمكن تضمين اقتباس في المحتوى مع الإشارة إلى مصدره. [اكتشف أسرار السيو التقني](https://glimpsesite.online/blog/seo-tikni) لمعرفة العناصر الأخرى التي تؤثر على ترتيب المواقع.
 
-#### Output
+### 2. استخدام التنسيقات داخل الاقتباسات
 
-> Tiam, ad mint andaepu dandae nostion secatur sequo quae.  
-> **Note** that you can use _Markdown syntax_ within a blockquote.
+يمكن استخدام تنسيقات مثل _الخط المائل_ و**الخط العريض** داخل اقتباسات المحتوى لتسليط الضوء على نقاط معينة.
 
-### Blockquote with attribution
+## الجداول وتنظيم البيانات
 
-#### Syntax
+### 1. استخدام الجداول
 
-```markdown
-> Don't communicate by sharing memory, share memory by communicating.<br>
-> — <cite>Rob Pike[^1]</cite>
-```
+استخدم الجداول لعرض البيانات بطريقة منظمة. الجداول تساعد في عرض المعلومات المعقدة بطريقة سهلة الفهم.
 
-#### Output
+### 2. تنسيق الجداول
 
-> Don't communicate by sharing memory, share memory by communicating.<br>
-> — <cite>Rob Pike[^1]</cite>
+| نوع التنسيق | الوصف |
+|------------|-------|
+| _الخط المائل_ | لتسليط الضوء على مصطلحات |
+| **الخط العريض** | للعناصر المهمة |
+| `الكود` | لعرض التعليمات البرمجية |
 
-[^1]: The above quote is excerpted from Rob Pike's [talk](https://www.youtube.com/watch?v=PAAkCSZUG1c) during Gopherfest, November 18, 2015.
+## كتل التعليمات البرمجية
 
-## Tables
+### 1. تنسيق الكود
 
-### Syntax
+يمكن استخدام 3 علامات ` في سطر جديد لكتابة مقتطفات التعليمات البرمجية وإغلاقها بـ3 علامات ` في سطر جديد. لتمييز لغة معينة، اكتب اسم اللغة بعد أول 3 علامات `، مثل html أو javascript أو markdown.
 
-```markdown
-| Italics   | Bold     | Code   |
-| --------- | -------- | ------ |
-| _italics_ | **bold** | `code` |
-```
-
-### Output
-
-| Italics   | Bold     | Code   |
-| --------- | -------- | ------ |
-| _italics_ | **bold** | `code` |
-
-## Code Blocks
-
-### Syntax
-
-we can use 3 backticks ``` in new line and write snippet and close with 3 backticks on new line and to highlight language specific syntax, write one word of language name after first 3 backticks, for eg. html, javascript, css, markdown, typescript, txt, bash
-
-````markdown
-```html
-<!doctype html>
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<title>Example HTML5 Document</title>
-	</head>
-	<body>
-		<p>Test</p>
-	</body>
-</html>
-```
-````
-
-### Output
+### 2. مثال على تنسيق الكود
 
 ```html
 <!doctype html>
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<title>Example HTML5 Document</title>
-	</head>
-	<body>
-		<p>Test</p>
-	</body>
+<html lang="ar">
+<head>
+<meta charset="utf-8" />
+<title>مثال على مستند HTML5</title>
+</head>
+<body>
+<p>اختبار</p>
+</body>
 </html>
 ```
 
-## List Types
+## أنواع القوائم
 
-### Ordered List
+### 1. القائمة المرقمة
 
-#### Syntax
+#### مثال
 
-```markdown
-1. First item
-2. Second item
-3. Third item
-```
+1. عنصر أول
+2. عنصر ثاني
+3. عنصر ثالث
 
-#### Output
+### 2. القائمة غير المرقمة
 
-1. First item
-2. Second item
-3. Third item
+#### مثال
 
-### Unordered List
+- عنصر
+- عنصر آخر
+- وعنصر ثالث
 
-#### Syntax
+### 3. القائمة المتداخلة
 
-```markdown
-- List item
-- Another item
-- And another item
-```
+#### مثال
 
-#### Output
+- فواكه
+  - تفاح
+  - برتقال
+  - موز
+- منتجات الألبان
+  - حليب
+  - جبن
 
-- List item
-- Another item
-- And another item
+## عناصر أخرى — الاختصارات، الحروف السفلى، الحروف العلوية، لوحة المفاتيح، تمييز النص
 
-### Nested list
+### 1. الاختصارات
 
-#### Syntax
+<abbr title="تنسيق تبادل الصور الرسومية">GIF</abbr> هو تنسيق لصور الشبكة.
 
-```markdown
-- Fruit
-  - Apple
-  - Orange
-  - Banana
-- Dairy
-  - Milk
-  - Cheese
-```
+### 2. الحروف السفلى والعلوية
 
-#### Output
-
-- Fruit
-  - Apple
-  - Orange
-  - Banana
-- Dairy
-  - Milk
-  - Cheese
-
-## Other Elements — abbr, sub, sup, kbd, mark
-
-### Syntax
-
-```markdown
-<abbr title="Graphics Interchange Format">GIF</abbr> is a bitmap image format.
-
-H<sub>2</sub>O
-
+H<sub>2</sub>O  
 X<sup>n</sup> + Y<sup>n</sup> = Z<sup>n</sup>
 
-Press <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>Delete</kbd> to end the session.
+### 3. مفاتيح لوحة المفاتيح
 
-Most <mark>salamanders</mark> are nocturnal, and hunt for insects, worms, and other small creatures.
-```
+اضغط <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>Delete</kbd> لإنهاء الجلسة.
 
-### Output
+### 4. تمييز النص
 
-<abbr title="Graphics Interchange Format">GIF</abbr> is a bitmap image format.
+معظم <mark>الضفادع</mark> ليلية، وت hunt للحشرات والديدان والمخلوقات الصغيرة الأخرى.
 
-H<sub>2</sub>O
+## الخلاصة
 
-X<sup>n</sup> + Y<sup>n</sup> = Z<sup>n</sup>
-
-Press <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>Delete</kbd> to end the session.
-
-Most <mark>salamanders</mark> are nocturnal, and hunt for insects, worms, and other small creatures.
+إنشاء محتوى احترافي متوافق مع معايير تحسين محركات البحث يتطلب اتباع أفضل الممارسات في التنسيق والتنظيم. من خلال استخدام العناوين المناسبة، تنظيم الفقرات، وتحسين العناصر المختلفة، يمكنك إنشاء محتوى يرضي محركات البحث ويقدم قيمة حقيقية للقراء.
