@@ -1,31 +1,4 @@
-```markdown
-# Build outputs
-dist/
-build/
-public/
-
-# Dependencies
-node_modules/
-
-# Environment variables
-.env
-.env.*
-
-# Cache directories
-.cache/
-.output/
-
-# Logs
-*.log
-
-# OS generated files
-.DS_Store
-Thumbs.db
-
-# Editor files
-.vscode/
-.idea/
-*.swp
-*.swo
-*.tmp
+```
+# Backup files
+*.bak
 ```
